@@ -506,4 +506,5 @@ footer .logo .amethyst-logo {
   height: 52px;
   background: url("../img/amethyst.png") no-repeat;
   display: inline-block;
+  margin-top: 5px;
 }
