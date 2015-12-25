@@ -277,7 +277,6 @@ input,
 textarea {
   color: #444;
 }
-h1,
 h2,
 h3,
 h4,
@@ -396,7 +395,8 @@ header .container nav ul li:last-child {
   margin-left: 50px;
 }
 header .container nav ul li a {
-  font-size: 44px;
+  font-size: 39px;
+  text-transform: uppercase;
 }
 header .container .title {
   position: relative;
