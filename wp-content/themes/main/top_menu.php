@@ -8,7 +8,7 @@
 <nav>
     <ul class="main_menu">
         <li><a href="/about">Обо мне</a></li>
-        <li><a href="#">Занятия</a></li>
+        <li><a href="/lessons">Занятия</a></li>
         <li><a href="/">Главная</a></li>
         <li><a href="/contacts">Контакты</a></li>
         <li><a href="#">Отзывы</a></li>
