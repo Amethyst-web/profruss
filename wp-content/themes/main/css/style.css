@@ -442,6 +442,34 @@ main .container .content p {
 main .container.index .content p {
   font-family: "Corbel", sans-serif;
 }
+main .container .image-table{
+  width: 100%;
+}
+main .container .image-table td:first-child{
+  background: no-repeat center;
+  background-size: 400px;
+}
+main .container.contacts .image-table p:first-child strong{
+  margin-top: 0;
+}
+main .container .image-table strong{
+  margin-top: 25px;
+  font-size: 24pt;
+  color: #c4b91b;
+  display: inline-block;
+}
+.contact-container{
+  width: 250px;
+  display: inline-block;
+}
+main .container.contacts .image-table td:first-child{
+  background-image: url('../img/house.png');
+  min-width: 400px;
+  min-height: 331px;
+}
+main .container.contacts .image-table td:last-child{
+
+}
 
 main .container.index h1{
   color: #516c2a !important;
