@@ -447,28 +447,57 @@ main .container .image-table{
 }
 main .container .image-table td:first-child{
   background: no-repeat center;
-  background-size: 400px;
-}
-main .container.contacts .image-table p:first-child strong{
-  margin-top: 0;
-}
-main .container .image-table strong{
-  margin-top: 25px;
-  font-size: 24pt;
-  color: #c4b91b;
-  display: inline-block;
 }
 .contact-container{
   width: 250px;
   display: inline-block;
 }
+main .container.contacts .image-table strong{
+  font-size: 24pt;
+  color: #c4b91b;
+  display: inline-block;
+}
+main .container.contacts .image-table strong{
+  margin-top: 25px;
+}
+main .container.contacts .image-table p:first-child strong{
+  margin-top: 0;
+}
 main .container.contacts .image-table td:first-child{
   background-image: url('../img/house.png');
+  background-size: 400px;
   min-width: 400px;
   min-height: 331px;
 }
-main .container.contacts .image-table td:last-child{
+main .container.lessons .image-table tr:last-child td:first-child{
+  background-image: url('../img/girl.png');
+  background-size: 300px;
+  min-width: 450px;
+  min-height: 478px;
+  height: 478px;
+}
 
+main .container.lessons .image-table .lesson{
+  font-family: Calibri, sans-serif;
+}
+main .container.lessons .image-table .lesson h2{
+  text-transform: uppercase;
+  color: #94a029;
+  font-size: 24pt;
+  margin-top: 40px;
+}
+main .container.lessons .image-table .lesson h3{
+  color: #d9950c;
+  font-size: 18pt;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+main .container.lessons .image-table .lesson .price{
+  color: #7a7a7a;
+  font-size: 24pt;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 main .container.index h1{
