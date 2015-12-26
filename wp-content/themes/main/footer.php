@@ -15,8 +15,6 @@
  */
 ?>
 
-        </div>
-    </div>
 </main>
 <footer>
     <div class="white_wrap">

@@ -71,7 +71,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 menu,
 nav,
 section,
@@ -94,7 +93,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 menu,
 nav,
 section {
@@ -304,32 +302,27 @@ Icon classes can be used entirely standalone. They are named after their origina
 ```
 */
 .icon-eng {
-  background-image: url(../img/sprite.png);
-  background-position: 0px -58px;
+  background: url(../img/sprite.png) 0 -58px;
   width: 55px;
   height: 55px;
 }
 .icon-f {
-  background-image: url(../img/sprite.png);
-  background-position: -55px -58px;
+  background: url(../img/sprite.png) -55px -58px;
   width: 52px;
   height: 49px;
 }
 .icon-fran {
-  background-image: url(../img/sprite.png);
-  background-position: -57px 0px;
+  background: url(../img/sprite.png) -57px 0;
   width: 58px;
   height: 56px;
 }
 .icon-rus {
-  background-image: url(../img/sprite.png);
-  background-position: 0px 0px;
+  background: url(../img/sprite.png) 0 0;
   width: 57px;
   height: 58px;
 }
 .icon-vk {
-  background-image: url(../img/sprite.png);
-  background-position: -115px 0px;
+  background: url(../img/sprite.png) -115px 0;
   width: 48px;
   height: 51px;
 }
@@ -421,27 +414,55 @@ header .container .title .logo {
 main {
   padding: 80px 0;
 }
-main .container {
+main .container.index {
   min-height: 710px;
+}
+main .container.index {
   background: url("../img/bg/main_bg.jpg") repeat;
 }
 main .container .content {
   position: relative;
-  top: 150px;
   width: 76%;
-  height: 255px;
   margin: 0 auto;
-  text-align: center;
+}
+main .container.index .content {
+  top: 150px;
 }
 main .container .content h1 {
-  color: #516c2a;
+  color: #d70c02;
   font-size: 80px;
+  text-align: center;
   margin-bottom: 20px;
   font-family: 'Vjaz', sans-serif;
+  text-transform: uppercase;
 }
 main .container .content p {
+  font-family: Calibri, sans-serif;
+}
+main .container.index .content p {
   font-family: "Corbel", sans-serif;
 }
+
+main .container.index h1{
+  color: #516c2a !important;
+  text-transform: none;
+}
+
+
+main .container.about .my-photo{
+  background-image: url('../img/tatyana.png');
+  height: 280px;
+  width: 300px;
+  border: 10px solid #cfd07a;
+  margin: 7px 40px 25px 0;
+}
+main .container.about .my-photo .inner-border{
+  height: 274px;
+  width: 294px;
+  border: 3px solid rgba(209, 210, 110, 0.67);
+}
+
+
 footer {
   font-family: "Corbel", sans-serif;
   font-size: 28px;
@@ -512,4 +533,11 @@ footer .logo .amethyst-logo {
   background: url("../img/amethyst.png") no-repeat;
   display: inline-block;
   margin-top: 5px;
+}
+
+.pull-left{
+  float: left;
+}
+.text-center{
+  text-align: center;
 }
