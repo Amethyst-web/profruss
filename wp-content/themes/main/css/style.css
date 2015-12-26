@@ -363,6 +363,10 @@ body {
 .corbel {
   font-family: "Corbel", sans-serif;
 }
+html,
+body {
+  min-width: 1200px;
+}
 header {
   padding: 25px 0;
   background-color: #020202;
@@ -425,6 +429,7 @@ main .container .content {
   position: relative;
   top: 150px;
   width: 76%;
+  height: 255px;
   margin: 0 auto;
   text-align: center;
 }
