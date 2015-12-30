@@ -11,6 +11,6 @@
         <li><a href="/lessons"><?=$GLOBALS['locale']['menu']['lessons']?></a></li>
         <li><a href="/"><?=$GLOBALS['locale']['menu']['main']?></a></li>
         <li><a href="/contacts"><?=$GLOBALS['locale']['menu']['contacts']?></a></li>
-        <li><a href="#"><?=$GLOBALS['locale']['menu']['reviews']?></a></li>
+        <li><a href="/reviews"><?=$GLOBALS['locale']['menu']['reviews']?></a></li>
     </ul>
 </nav>

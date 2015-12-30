@@ -476,6 +476,17 @@ main .container.lessons .image-table tr:last-child td:first-child{
   min-height: 478px;
   height: 478px;
 }
+main .container.reviews .image-table tr:last-child td:first-child{
+  background-image: url('../img/bear.png');
+  background-size: 300px;
+  min-width: 250px;
+  min-height: 452px;
+  width: 250px;
+  height: 452px;
+}
+main .container.reviews .image-table td:last-child{
+  width: 300px;
+}
 
 main .container.lessons .image-table .lesson{
   font-family: Calibri, sans-serif;
@@ -598,4 +609,53 @@ footer .logo .amethyst-logo {
 }
 .text-center{
   text-align: center;
+}
+
+.comment-list{
+  margin-bottom: 20px;
+}
+.comment-list .review{
+  margin-bottom: 10px;
+}
+.comment-list .review .author{
+  color: #c6ca81;
+  font-size: 18pt;
+}
+.comment-list .review .text{
+  font-size: 14pt;
+}
+.comment-list .review .date{
+  font-size: 12pt;
+  color: #909090;
+}
+.comment-respond h3{
+  font-size: 18pt;
+  color: #000;
+  font-family: "Calibri", sans-serif;
+}
+.comment-respond form textarea,
+.comment-respond form input[type=text],
+.comment-respond form input[type=email]{
+  border: 1px solid #c6ca81;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+.comment-respond textarea{
+  resize: none;
+  padding: 10px;
+  height: 100px;
+}
+.comment-respond .form-submit {
+  text-align: right;
+  margin-top: 20px;
+}
+.comment-respond .form-submit input[type=submit] {
+  background-color: #c6ca81;
+  border: none;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 18px;
 }

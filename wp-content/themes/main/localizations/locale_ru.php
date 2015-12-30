@@ -23,3 +23,9 @@ $local['footer']['phone'] = 'Телефон';
 $local['footer']['social'] = 'Я в соц. сетях';
 
 $local['price'] = 'Цена';
+
+$local['comments']['author'] = 'Имя';
+$local['comments']['email'] = 'Email (не публикуется)';
+$local['comments']['review'] = 'Отзыв';
+$local['comments']['submit'] = 'Отправить';
+$local['comments']['reply'] = 'Оставить отзыв';

@@ -23,3 +23,9 @@ $local['footer']['phone'] = 'Phone';
 $local['footer']['social'] = 'Social';
 
 $local['price'] = 'Price';
+
+$local['comments']['author'] = 'Name';
+$local['comments']['email'] = 'Email (not publishing)';
+$local['comments']['review'] = 'Review';
+$local['comments']['submit'] = 'Submit';
+$local['comments']['reply'] = 'Send review';
