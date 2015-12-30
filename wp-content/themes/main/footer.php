@@ -20,31 +20,31 @@
     <div class="white_wrap">
         <div class="container">
             <div class="block">
-                <p>Языки</p>
+                <p><?=$GLOBALS['locale']['footer']['languages']?>:</p>
                 <div class="langs">
-                    <a href="#lang">
-                        <div class="icon-eng"></div>
-                    </a>
-                    <a href="#lang">
+                    <a href="/?lang=ru">
                         <div class="icon-rus"></div>
                     </a>
-                    <a href="#lang">
+                    <a href="/?lang=en">
+                        <div class="icon-eng"></div>
+                    </a>
+                    <a href="/?lang=fr">
                         <div class="icon-fran"></div>
                     </a>
                 </div>
             </div>
             <div class="adr block">
-                <p>Адрес:</p>
-                <p>ул. Новоостаповская</p>
-                <p>д.12 кв.15</p>
+                <p><?=$GLOBALS['locale']['footer']['address']?>:</p>
+                <p><?=$GLOBALS['locale']['footer']['street']?></p>
+                <p><?=$GLOBALS['locale']['footer']['home']?></p>
             </div>
             <div class="phone block">
-                <p>Телефон:</p>
+                <p><?=$GLOBALS['locale']['footer']['phone']?>:</p>
                 <p>8(985)1000 558</p>
-                <a href="mailto:fetatti@gmail.com">email:fetatti@gmail.com</a>
+                <a href="mailto:fetatti@gmail.com">Email:fetatti@gmail.com</a>
             </div>
             <div class="block">
-                <p>Я в соцсетях</p>
+                <p><?=$GLOBALS['locale']['footer']['social']?>:</p>
                 <div class="soc">
                     <a href="#soc">
                         <div class="icon-f"></div>

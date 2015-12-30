@@ -25,7 +25,7 @@ get_header(); ?>
             <tr>
                 <td></td>
                 <td>
-                    <h1>Контакты</h1>
+                    <h1><?=the_title();?></h1>
                     <div class="contact-container">
                         <?php the_content();?>
                     </div>

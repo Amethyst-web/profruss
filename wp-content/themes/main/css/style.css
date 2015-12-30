@@ -486,11 +486,12 @@ main .container.lessons .image-table .lesson h2{
   font-size: 24pt;
   margin-top: 40px;
 }
-main .container.lessons .image-table .lesson h3{
+main .container.lessons .image-table .lesson strong{
   color: #d9950c;
   font-size: 18pt;
   margin-top: 15px;
   margin-bottom: 10px;
+  display: block;
 }
 main .container.lessons .image-table .lesson .price{
   color: #7a7a7a;

@@ -11,7 +11,7 @@ get_header(); ?>
 
 <div class="container about">
     <div class="content">
-        <h1>Обо мне</h1>
+        <h1><?=the_title();?></h1>
         <?php if ( have_posts() ) : ?>
 
             <?php while ( have_posts() ) : the_post(); ?>

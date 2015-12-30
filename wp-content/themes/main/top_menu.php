@@ -7,10 +7,10 @@
  */?>
 <nav>
     <ul class="main_menu">
-        <li><a href="/about">Обо мне</a></li>
-        <li><a href="/lessons">Занятия</a></li>
-        <li><a href="/">Главная</a></li>
-        <li><a href="/contacts">Контакты</a></li>
-        <li><a href="#">Отзывы</a></li>
+        <li><a href="/about"><?=$GLOBALS['locale']['menu']['about']?></a></li>
+        <li><a href="/lessons"><?=$GLOBALS['locale']['menu']['lessons']?></a></li>
+        <li><a href="/"><?=$GLOBALS['locale']['menu']['main']?></a></li>
+        <li><a href="/contacts"><?=$GLOBALS['locale']['menu']['contacts']?></a></li>
+        <li><a href="#"><?=$GLOBALS['locale']['menu']['reviews']?></a></li>
     </ul>
 </nav>

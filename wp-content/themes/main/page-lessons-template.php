@@ -24,7 +24,7 @@ get_header(); ?>
             <table class="image-table">
                 <tr>
                     <td></td>
-                    <td><h1>Занятия</h1></td>
+                    <td><h1><?=the_title();?></h1></td>
                 </tr>
                 <tr>
                     <td></td>
@@ -36,9 +36,8 @@ get_header(); ?>
                         foreach($posts as $post):?>
                             <div class="lesson">
                                 <h2><?=$post->post_title?></h2>
-                                <h3><?=get_post_meta($post->ID, 'Краткое описание', true);?></h3>
                                 <p><?=$post->post_content?></p>
-                                <p class="price">Цена: <?=get_post_meta($post->ID, 'Цена', true);?> руб.</p>
+                                <p class="price"><?=$GLOBALS['locale']['price']?>: <?=get_post_meta($post->ID, 'Цена', true);?> ₽</p>
                             </div>
                         <?php endforeach; ?>
                     </td>

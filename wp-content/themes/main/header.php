@@ -24,14 +24,17 @@
 <!--[if !(IE 7) & !(IE 8)]><!-->
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
-<?php include (TEMPLATEPATH . '/head.php'); ?>
+<?php
+    include (TEMPLATEPATH . '/localizations/locale.php');
+    include (TEMPLATEPATH . '/head.php');
+?>
 <body>
     <header>
         <div class="container">
             <?php include (TEMPLATEPATH . '/top_menu.php'); ?>
             <a class="title" href="/">
-                <p class="name">Татьяна Федулова</p>
-                <p class="logo vjaz">Я говорю по-русски</p>
+                <p class="name"><?=$GLOBALS['locale']['name']?></p>
+                <p class="logo vjaz"><?=$GLOBALS['locale']['site_name']?></p>
             </a>
         </div>
     </header>
