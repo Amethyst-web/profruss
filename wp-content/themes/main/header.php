@@ -28,7 +28,7 @@
     include (TEMPLATEPATH . '/localizations/locale.php');
     include (TEMPLATEPATH . '/head.php');
 ?>
-<body>
+<body lang="<?=$_GET['lang']?>">
     <header>
         <div class="container">
             <?php include (TEMPLATEPATH . '/top_menu.php'); ?>
