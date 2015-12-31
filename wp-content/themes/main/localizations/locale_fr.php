@@ -6,7 +6,7 @@
  * Time: 16:17
  */
 
-$local['menu']['about'] = 'A propos de moi';
+$local['menu']['about'] = 'Sur moi';
 $local['menu']['lessons'] = 'Cours';
 $local['menu']['main'] = 'Accueil';
 $local['menu']['contacts'] = 'Contact';
@@ -24,8 +24,8 @@ $local['footer']['social'] = 'Réseaux sociaux';
 
 $local['price'] = 'Coût';
 
-$local['comments']['author'] = 'Name';
-$local['comments']['email'] = 'Email (not publishing)';
-$local['comments']['review'] = 'Review';
-$local['comments']['submit'] = 'Submit';
-$local['comments']['reply'] = 'Send review';
+$local['comments']['author'] = 'Nom';
+$local['comments']['email'] = 'Email (ne s\'affiche pas)';
+$local['comments']['review'] = 'Avis';
+$local['comments']['submit'] = 'Envoyer';
+$local['comments']['reply'] = 'Laisser un avis';
