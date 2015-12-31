@@ -6,23 +6,23 @@
  * Time: 16:17
  */
 
-$local['menu']['about'] = 'About me';
-$local['menu']['lessons'] = 'Lessons';
-$local['menu']['main'] = 'Home';
-$local['menu']['contacts'] = 'Contacts';
-$local['menu']['reviews'] = 'Reviews';
+$local['menu']['about'] = 'A propos de moi';
+$local['menu']['lessons'] = 'Cours';
+$local['menu']['main'] = 'Accueil';
+$local['menu']['contacts'] = 'Contact';
+$local['menu']['reviews'] = 'Avis';
 
-$local['name'] = 'Tatyana Fedulova';
-$local['site_name'] = 'I speak in russian';
+$local['name'] = 'Tatiana Fedoulova';
+$local['site_name'] = 'Je parle russe';
 
-$local['footer']['languages'] = 'Languages';
-$local['footer']['address'] = 'Address';
-$local['footer']['street'] = 'Novoostapovskaya';
-$local['footer']['home'] = '12, 15';
-$local['footer']['phone'] = 'Phone';
-$local['footer']['social'] = 'Social';
+$local['footer']['languages'] = 'Langues';
+$local['footer']['address'] = 'Adresse';
+$local['footer']['street'] = 'Novoostapovskaya,';
+$local['footer']['home'] = 'Moscou, Russie, 12-15';
+$local['footer']['phone'] = 'Téléphone';
+$local['footer']['social'] = 'Réseaux sociaux';
 
-$local['price'] = 'Price';
+$local['price'] = 'Coût';
 
 $local['comments']['author'] = 'Name';
 $local['comments']['email'] = 'Email (not publishing)';
