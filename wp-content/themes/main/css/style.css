@@ -530,17 +530,18 @@ main .container.error h3{
   font-size: 14pt;
   text-transform: uppercase;
   color: #030303;
+  font-weight: normal;
   font-family: Calibri, sans-serif;
 }
 main .container.error a{
   display: inline-block;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 25px 25px;
   border: 1px solid;
   font-family: Calibri, sans-serif;
   text-transform: uppercase;
   color: #030303;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 
