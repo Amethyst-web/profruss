@@ -29,3 +29,5 @@ $local['comments']['email'] = 'Email (not publishing)';
 $local['comments']['review'] = 'Review';
 $local['comments']['submit'] = 'Submit';
 $local['comments']['reply'] = 'Send review';
+
+$local['404'] = 'Page not found';

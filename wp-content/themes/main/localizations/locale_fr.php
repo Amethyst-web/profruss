@@ -29,3 +29,5 @@ $local['comments']['email'] = 'Email (ne s\'affiche pas)';
 $local['comments']['review'] = 'Avis';
 $local['comments']['submit'] = 'Envoyer';
 $local['comments']['reply'] = 'Laisser un avis';
+
+$local['404'] = 'Page introuvable';

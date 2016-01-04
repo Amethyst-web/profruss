@@ -29,3 +29,5 @@ $local['comments']['email'] = 'Email (не публикуется)';
 $local['comments']['review'] = 'Отзыв';
 $local['comments']['submit'] = 'Отправить';
 $local['comments']['reply'] = 'Оставить отзыв';
+
+$local['404'] = 'Страница не найдена';

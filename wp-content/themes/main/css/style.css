@@ -520,6 +520,29 @@ main .container.index h1{
   text-transform: none;
 }
 
+main .container.error h1{
+  font-size: 175pt;
+  margin-bottom: 0;
+  line-height: 200px;
+  color: #b2ca61 !important;
+}
+main .container.error h3{
+  font-size: 14pt;
+  text-transform: uppercase;
+  color: #030303;
+  font-family: Calibri, sans-serif;
+}
+main .container.error a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid;
+  font-family: Calibri, sans-serif;
+  text-transform: uppercase;
+  color: #030303;
+  margin-top: 50px;
+}
+
 
 main .container.about .my-photo{
   background-image: url('../img/tatyana.png');
