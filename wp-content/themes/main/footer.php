@@ -57,7 +57,7 @@
         </div>
     </div>
     <div class="logo">
-        <div class="amethyst-logo"></div>
+        <a href="http://amethyst-ws.ru" target="_blank" title="Веб-студия Аметист"><div class="amethyst-logo"></div></a>
     </div>
 </footer>
 
