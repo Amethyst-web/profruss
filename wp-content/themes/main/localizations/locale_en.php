@@ -13,7 +13,7 @@ $local['menu']['contacts'] = 'Contacts';
 $local['menu']['reviews'] = 'Reviews';
 
 $local['name'] = 'Tatyana Fedulova';
-$local['site_name'] = 'I speak in russian';
+$local['site_name'] = 'I speak russian';
 
 $local['footer']['languages'] = 'Languages';
 $local['footer']['address'] = 'Address';

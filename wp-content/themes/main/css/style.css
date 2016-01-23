@@ -399,9 +399,11 @@ header .container nav ul li a {
   text-transform: uppercase;
 }
 header .container .title {
-  position: relative;
+  position: absolute;
   top: 375px;
   text-align: center;
+  left: 0;
+  right: 0;
 }
 header .container .title .name {
   font-size: 50px;
