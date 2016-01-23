@@ -399,11 +399,10 @@ header .container nav ul li a {
   text-transform: uppercase;
 }
 header .container .title {
-  position: absolute;
-  top: 375px;
+  position: relative;
   text-align: center;
-  left: 0;
-  right: 0;
+  display: block;
+  margin-top: 375px;
 }
 header .container .title .name {
   font-size: 50px;
@@ -421,9 +420,9 @@ main .container.index {
 }
 main .container.index {
   margin-top: 80px;
+  margin-bottom: 80px;
   background: url("../img/bg/main_bg.jpg") no-repeat;
   background-size: 100% 100%;
-  margin-bottom: 80px;
 }
 main .container .content {
   position: relative;
