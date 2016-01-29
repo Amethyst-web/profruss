@@ -144,6 +144,12 @@ input,
 select {
   vertical-align: middle;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 body {
   font: 13px/1.231 sans-serif;
   *font-size: small;
@@ -427,9 +433,11 @@ main .container.index {
 main .container .content {
   position: relative;
   width: 76%;
+  min-height: 100%;
   margin: 0 auto;
 }
 main .container.index .content {
+  height: 255px;
   padding-top: 150px;
   padding-bottom: 150px;
 }

@@ -40,8 +40,8 @@
             </div>
             <div class="phone block">
                 <p><?=$GLOBALS['locale']['footer']['phone']?>:</p>
-                <p>8(985)1000 558</p>
-                <a href="mailto:fetatti@gmail.com">Email:fetatti@gmail.com</a>
+                <p>+7(985)1000 558</p>
+                <a href="mailto:fetatti@gmail.com">Email:prof.russ@hotmail.com</a>
             </div>
             <div class="block">
                 <p><?=$GLOBALS['locale']['footer']['social']?>:</p>

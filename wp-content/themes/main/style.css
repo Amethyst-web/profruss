@@ -1,6 +1,511 @@
 /*
-Theme Name: Tema 100
+Theme Name: main
 Author: Amethyst company. HEKET313
-Description: Theme for site http://tema100.ru
+Description: Theme for site http://profruss.ru
 Version: 1.0
 */
+.clearfix {
+    zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+/* ==== Scroll down to find where to put your styles :) ==== */
+/*  HTML5 ✰ Boilerplate  */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+input,
+select {
+    vertical-align: middle;
+}
+body {
+    font: 13px/1.231 sans-serif;
+    *font-size: small;
+}
+select,
+input,
+textarea,
+button {
+    font: 99% sans-serif;
+}
+pre,
+code,
+kbd,
+samp {
+    font-family: monospace, sans-serif;
+}
+html {
+    overflow-y: scroll;
+}
+a:hover,
+a:active {
+    outline: none;
+}
+ul,
+ol {
+    margin-left: 2em;
+}
+ol {
+    list-style-type: decimal;
+}
+nav ul,
+nav li {
+    margin: 0;
+    list-style: none;
+    list-style-image: none;
+}
+small {
+    font-size: 85%;
+}
+strong,
+th {
+    font-weight: bold;
+}
+td {
+    vertical-align: top;
+}
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 15px;
+}
+textarea {
+    overflow: auto;
+}
+.ie6 legend,
+.ie7 legend {
+    margin-left: -7px;
+}
+input[type="radio"] {
+    vertical-align: text-bottom;
+}
+input[type="checkbox"] {
+    vertical-align: bottom;
+}
+.ie7 input[type="checkbox"] {
+    vertical-align: baseline;
+}
+.ie6 input {
+    vertical-align: text-bottom;
+}
+label,
+input[type="button"],
+input[type="submit"],
+input[type="image"],
+button {
+    cursor: pointer;
+}
+button,
+input,
+select,
+textarea {
+    margin: 0;
+}
+input:invalid,
+textarea:invalid {
+    border-radius: 1px;
+    box-shadow: 0px 0px 5px red;
+}
+.no-boxshadow input:invalid,
+.no-boxshadow textarea:invalid {
+    background-color: #f0dddd;
+}
+::-moz-selection {
+    background: #FF5E99;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #FF5E99;
+    color: #fff;
+    text-shadow: none;
+}
+a:link {
+    -webkit-tap-highlight-color: #FF5E99;
+}
+button {
+    width: auto;
+    overflow: visible;
+}
+.ie7 img {
+    -ms-interpolation-mode: bicubic;
+}
+body,
+select,
+input,
+textarea {
+    color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+a,
+a:active,
+a:visited {
+    color: #607890;
+}
+a:hover {
+    color: #036;
+}
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-eng {
+    background-image: url(../img/sprite.png);
+    background-position: 0px -58px;
+    width: 55px;
+    height: 55px;
+}
+.icon-f {
+    background-image: url(../img/sprite.png);
+    background-position: -55px -58px;
+    width: 52px;
+    height: 49px;
+}
+.icon-fran {
+    background-image: url(../img/sprite.png);
+    background-position: -57px 0px;
+    width: 58px;
+    height: 56px;
+}
+.icon-rus {
+    background-image: url(../img/sprite.png);
+    background-position: 0px 0px;
+    width: 57px;
+    height: 58px;
+}
+.icon-vk {
+    background-image: url(../img/sprite.png);
+    background-position: -115px 0px;
+    width: 48px;
+    height: 51px;
+}
+@font-face {
+    font-family: Vjaz;
+    src: url(../fonts/fitavjaz.ttf);
+}
+@font-face {
+    font-family: Vjaz;
+    src: url(../fonts/fitavjaz.eot);
+}
+@font-face {
+    font-family: Vjaz;
+    src: url(../fonts/fitavjaz.woff);
+}
+@font-face {
+    font-family: Kanyon;
+    src: url(../fonts/kanyon.ttf);
+}
+@font-face {
+    font-family: Corbel;
+    src: url(../fonts/corbel.ttf);
+}
+body {
+    font-family: 'Kanyon', sans-serif;
+    font-size: 20px;
+}
+.vjaz {
+    font-family: 'Vjaz', sans-serif;
+}
+.corbel {
+    font-family: "Corbel", sans-serif;
+}
+html,
+body {
+    min-width: 1200px;
+}
+header {
+    padding: 25px 0;
+    background-color: #020202;
+}
+header .container {
+    min-height: 1005px;
+    background: url("../img/bg/bg_header.png") repeat;
+}
+header .container a {
+    color: white;
+    text-decoration: none;
+}
+header .container nav {
+    position: relative;
+    top: 90px;
+    left: 27px;
+    width: 65%;
+    margin: 0 auto;
+}
+header .container nav ul li {
+    display: inline-block;
+}
+header .container nav ul li:nth-child(3) {
+    margin: 0 100px;
+}
+header .container nav ul li:first-child {
+    margin-right: 50px;
+}
+header .container nav ul li:last-child {
+    margin-left: 50px;
+}
+header .container nav ul li a {
+    font-size: 44px;
+}
+header .container .title {
+    position: relative;
+    top: 375px;
+    text-align: center;
+}
+header .container .title .name {
+    font-size: 50px;
+}
+header .container .title .logo {
+    font-size: 140px;
+}
+.container {
+    width: 1200px !important;
+    margin: 0 auto;
+    position: relative;
+}
+main {
+    padding: 80px 0;
+}
+main .container {
+    min-height: 710px;
+    background: url("../img/bg/main_bg.jpg") repeat;
+}
+main .container .content {
+    position: relative;
+    top: 150px;
+    width: 76%;
+    height: 255px;
+    margin: 0 auto;
+    text-align: center;
+}
+main .container .content h1 {
+    color: #516c2a;
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: 'Vjaz', sans-serif;
+}
+main .container .content p {
+    font-family: "Corbel", sans-serif;
+}
+footer {
+    font-family: "Corbel", sans-serif;
+    font-size: 28px;
+    color: #370000;
+    padding: 5px 0 40px;
+    background-color: #c6ca81;
+}
+footer a,
+footer a:hover {
+    text-decoration: none;
+    color: #370000;
+}
+footer .container {
+    zoom: 1;
+    padding: 10px 0;
+}
+footer .container:before,
+footer .container:after {
+    content: "";
+    display: table;
+}
+footer .container:after {
+    clear: both;
+}
+footer .white_wrap {
+    background-color: white;
+}
+footer .block {
+    width: 22%;
+    margin-left: 4%;
+    float: left;
+    text-align: center;
+}
+footer .block:first-child {
+    margin-left: 0;
+}
+footer .block .langs {
+    margin: 10px auto 0;
+    width: 180px;
+}
+footer .block .langs a {
+    float: left;
+    margin-left: 5px;
+}
+footer .block .langs a:first-child {
+    margin-left: 0;
+}
+footer .block .soc {
+    margin: 10px auto 0;
+    width: 110px;
+}
+footer .block .soc a {
+    float: left;
+    margin-left: 10px;
+}
+footer .block .soc a:first-child {
+    position: relative;
+    top: 2px;
+    margin-left: 0;
+}
+

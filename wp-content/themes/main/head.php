@@ -1,5 +1,5 @@
 <head>
-    <meta name="viewport" content="width=1024, user-scalable=0"/>
+    <meta name="viewport" content="width=1200, user-scalable=0"/>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <title><?php wp_title( '|', true, 'right' ); ?>Татьяна Федулова. Я говорю по-русски</title>
     <link rel="icon" type="image/png" href="/favicon.ico">
