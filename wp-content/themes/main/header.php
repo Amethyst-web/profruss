@@ -29,13 +29,13 @@
     include (TEMPLATEPATH . '/head.php');
 ?>
 <body lang="<?=$_GET['lang']?>">
-    <header>
-        <div class="container">
-            <?php include (TEMPLATEPATH . '/top_menu.php'); ?>
-            <a class="title" href="/">
-                <p class="name"><?=$GLOBALS['locale']['name']?></p>
-                <p class="logo vjaz"><?=$GLOBALS['locale']['site_name']?></p>
-            </a>
-        </div>
-    </header>
     <main>
+        <header>
+            <div class="container">
+                <?php include (TEMPLATEPATH . '/top_menu.php'); ?>
+                <a class="title" href="/">
+                    <p class="name"><?=$GLOBALS['locale']['name']?></p>
+                    <p class="logo vjaz"><?=$GLOBALS['locale']['site_name']?></p>
+                </a>
+            </div>
+        </header>

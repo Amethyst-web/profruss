@@ -15,51 +15,51 @@
  */
 ?>
 
-</main>
-<footer>
-    <div class="white_wrap">
-        <div class="container">
-            <div class="block">
-                <p><?=$GLOBALS['locale']['footer']['languages']?>:</p>
-                <div class="langs">
-                    <a href="/?lang=ru">
-                        <div class="icon-rus"></div>
-                    </a>
-                    <a href="/?lang=en">
-                        <div class="icon-eng"></div>
-                    </a>
-                    <a href="/?lang=fr">
-                        <div class="icon-fran"></div>
-                    </a>
+    <footer>
+        <div class="white_wrap">
+            <div class="container">
+                <div class="block">
+                    <p><?=$GLOBALS['locale']['footer']['languages']?>:</p>
+                    <div class="langs">
+                        <a href="/?lang=ru">
+                            <div class="icon-rus"></div>
+                        </a>
+                        <a href="/?lang=en">
+                            <div class="icon-eng"></div>
+                        </a>
+                        <a href="/?lang=fr">
+                            <div class="icon-fran"></div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="adr block">
-                <p><?=$GLOBALS['locale']['footer']['address']?>:</p>
-                <p><?=$GLOBALS['locale']['footer']['street']?></p>
-                <p><?=$GLOBALS['locale']['footer']['home']?></p>
-            </div>
-            <div class="phone block">
-                <p><?=$GLOBALS['locale']['footer']['phone']?>:</p>
-                <p>+7(985)1000 558</p>
-                <a href="mailto:fetatti@gmail.com">Email:prof.russ@hotmail.com</a>
-            </div>
-            <div class="block">
-                <p><?=$GLOBALS['locale']['footer']['social']?>:</p>
-                <div class="soc">
-                    <a href="#soc">
-                        <div class="icon-f"></div>
-                    </a>
-                    <a href="#soc">
-                        <div class="icon-vk"></div>
-                    </a>
+                <div class="adr block">
+                    <p><?=$GLOBALS['locale']['footer']['address']?>:</p>
+                    <p><?=$GLOBALS['locale']['footer']['street']?></p>
+                    <p><?=$GLOBALS['locale']['footer']['home']?></p>
+                </div>
+                <div class="phone block">
+                    <p><?=$GLOBALS['locale']['footer']['phone']?>:</p>
+                    <p>+7(985)1000 558</p>
+                    <a href="mailto:fetatti@gmail.com">Email:prof.russ@hotmail.com</a>
+                </div>
+                <div class="block">
+                    <p><?=$GLOBALS['locale']['footer']['social']?>:</p>
+                    <div class="soc">
+                        <a href="#soc">
+                            <div class="icon-f"></div>
+                        </a>
+                        <a href="#soc">
+                            <div class="icon-vk"></div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="logo">
-        <a href="http://amethyst-ws.ru" target="_blank" title="Веб-студия Аметист"><div class="amethyst-logo"></div></a>
-    </div>
-</footer>
+        <div class="logo">
+            <a href="http://amethyst-ws.ru" target="_blank" title="Веб-студия Аметист"><div class="amethyst-logo"></div></a>
+        </div>
+    </footer>
+</main>
 
 <?php wp_footer(); ?>
 </body>

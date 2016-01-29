@@ -148,7 +148,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 body {
   font: 13px/1.231 sans-serif;
@@ -421,12 +421,20 @@ header .container .title .logo {
   margin: 0 auto;
   position: relative;
 }
+main{
+  min-height: 100%;
+  position: relative;
+}
+main>.container{
+  margin-top: 80px;
+  padding-bottom: 272px;
+}
 main .container.index {
   min-height: 710px;
 }
 main .container.index {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  padding-bottom: 0;
+  /*margin-bottom: 80px;*/
   background: url("../img/bg/main_bg.jpg") no-repeat;
   background-size: 100% 100%;
 }
@@ -570,6 +578,10 @@ main .container.about .my-photo .inner-border{
 
 
 footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   font-family: "Corbel", sans-serif;
   font-size: 28px;
   color: #370000;
