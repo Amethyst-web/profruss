@@ -9,20 +9,22 @@
 
 get_header(); ?>
 
-<div class="container index">
-    <div class="content text-center">
-        <h1 class="green"><?=the_title();?></h1>
-        <?php if ( have_posts() ) : ?>
+<div class="wrapper">
+    <div class="container index">
+        <div class="content text-center">
+            <h1 class="green"><?=the_title();?></h1>
+            <?php if ( have_posts() ) : ?>
 
-            <?php while ( have_posts() ) : the_post(); ?>
-                <?php get_template_part( 'content', get_post_format() ); ?>
-            <?php endwhile; ?>
+                <?php while ( have_posts() ) : the_post(); ?>
+                    <?php get_template_part( 'content', get_post_format() ); ?>
+                <?php endwhile; ?>
 
-        <?php else : ?>
-            <?php get_template_part( 'content', 'none' ); ?>
-        <?php endif; ?>
+            <?php else : ?>
+                <?php get_template_part( 'content', 'none' ); ?>
+            <?php endif; ?>
 
-        <?php the_content();?>
+            <?php the_content();?>
+        </div>
     </div>
 </div>
 <?php get_footer(); ?>

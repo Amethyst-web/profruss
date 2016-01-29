@@ -425,7 +425,7 @@ main{
   min-height: 100%;
   position: relative;
 }
-main>.container{
+main>.container, main>.wrapper{
   margin-top: 80px;
   padding-bottom: 272px;
 }
