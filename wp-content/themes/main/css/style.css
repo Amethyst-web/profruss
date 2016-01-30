@@ -371,8 +371,10 @@ header {
   background-color: #020202;
 }
 header .container {
-  min-height: 1005px;
-  background: url("../img/bg/bg_header.png") repeat;
+  min-height: 932px;
+  background: url("../img/bg/bg_header.png") no-repeat;
+  background-size: contain;
+  background-position-x: center;
 }
 header .container a {
   color: white;
@@ -422,6 +424,7 @@ header .container .title .logo {
   position: relative;
 }
 main{
+  min-width: inherit;
   min-height: 100%;
   position: relative;
 }
