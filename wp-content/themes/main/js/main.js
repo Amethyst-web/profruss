@@ -10,7 +10,9 @@ $(document).ready(function(){
         if($(window).width() > headHeight) {
             var titleMargin = (headHeight - 233) / 2;
             $('header .container').css('min-height', headHeight);
-            $('header nav').css('top', headHeight/10);
+            if(headHeight <= 1000) {
+                $('header nav').css('top', headHeight / 10);
+            }
             if(titleMargin < 400) {
                 $('header .container .title').css('margin-top', titleMargin);
             }

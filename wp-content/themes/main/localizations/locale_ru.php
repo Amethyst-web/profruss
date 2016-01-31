@@ -17,8 +17,7 @@ $local['site_name'] = 'Я говорю по-русски';
 
 $local['footer']['languages'] = 'Языки';
 $local['footer']['address'] = 'Адрес';
-$local['footer']['street'] = 'ул. Новоостаповская';
-$local['footer']['home'] = 'д.12 кв.15';
+$local['footer']['home'] = 'Россия, Москва';
 $local['footer']['phone'] = 'Телефон';
 $local['footer']['social'] = 'Я в соц. сетях';
 
