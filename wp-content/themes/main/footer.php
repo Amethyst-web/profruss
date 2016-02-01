@@ -45,11 +45,11 @@
                 <div class="block">
                     <p><?=$GLOBALS['locale']['footer']['social']?>:</p>
                     <div class="soc">
-                        <a href="#soc">
+                        <a href="https://www.facebook.com/tatiana.fedulova.9" target="_blank">
                             <div class="icon-f"></div>
                         </a>
-                        <a href="#soc">
-                            <div class="icon-vk"></div>
+                        <a href="https://www.linkedin.com/in/tatiana-fedulova-975a6669?trk=hp-identity-name" target="_blank">
+                            <div class="icon-in"></div>
                         </a>
                     </div>
                 </div>
