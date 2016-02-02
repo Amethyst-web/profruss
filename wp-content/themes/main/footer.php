@@ -32,17 +32,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="adr block">
-                    <p><?=$GLOBALS['locale']['footer']['address']?>:</p>
-                    <p><?=$GLOBALS['locale']['footer']['street']?></p>
-                    <p><?=$GLOBALS['locale']['footer']['home']?></p>
-                </div>
-                <div class="phone block">
-                    <p><?=$GLOBALS['locale']['footer']['phone']?>:</p>
-                    <p>+7(985)1000 558</p>
-                    <a href="mailto:fetatti@gmail.com">Email:prof.russ@hotmail.com</a>
-                </div>
-                <div class="block">
+                <div class="block right">
                     <p><?=$GLOBALS['locale']['footer']['social']?>:</p>
                     <div class="soc">
                         <a href="https://www.facebook.com/tatiana.fedulova.9" target="_blank">

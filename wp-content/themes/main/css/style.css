@@ -624,6 +624,9 @@ footer .block {
   float: left;
   text-align: center;
 }
+footer .block.right{
+  float: right;
+}
 footer .block:first-child {
   margin-left: 0;
 }
