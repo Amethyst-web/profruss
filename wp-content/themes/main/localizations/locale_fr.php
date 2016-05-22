@@ -21,7 +21,7 @@ $local['footer']['home'] = 'Russie, Moscou';
 $local['footer']['phone'] = 'Téléphone';
 $local['footer']['social'] = 'Réseaux sociaux';
 
-$local['price'] = 'Coût';
+$local['price'] = 'Tarif';
 
 $local['comments']['author'] = 'Nom';
 $local['comments']['email'] = 'Email (ne s\'affiche pas)';
